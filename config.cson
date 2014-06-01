@@ -1,0 +1,23 @@
+'exception-reporting':
+  'userId': '49767e33-f4ad-4f72-5159-225716f89d91'
+'release-notes':
+  'viewedVersion': '0.95.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '21e56c7aa661a97b2dc96bf09353178e8167aaf3'
+'editor':
+  'tabLength': 4
+  'showIndentGuide': true
+  'showInvisibles': true
+  'fontSize': 14
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
+  'projectHome': '/Users/Colden/Develop'
+'autocomplete-plus':
+  'includeCompletionsFromAllBuffers': true
+'jekyll':
+  'postsType': '.md'
