@@ -11,6 +11,9 @@
   'showIndentGuide': true
   'showInvisibles': true
   'fontSize': 14
+  'invisibles':
+    'eol': ' '
+    'cr': ' '
 'core':
   'themes': [
     'atom-dark-ui'
