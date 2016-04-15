@@ -1,26 +1,55 @@
-'exception-reporting':
-  'userId': '49767e33-f4ad-4f72-5159-225716f89d91'
-'release-notes':
-  'viewedVersion': '0.95.0'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '21e56c7aa661a97b2dc96bf09353178e8167aaf3'
-'editor':
-  'tabLength': 4
-  'showIndentGuide': true
-  'showInvisibles': true
-  'fontSize': 14
-  'invisibles':
-    'eol': ' '
-    'cr': ' '
-'core':
-  'themes': [
-    'atom-dark-ui'
-    'monokai'
-  ]
-  'projectHome': '/Users/Colden/Develop'
-'autocomplete-plus':
-  'includeCompletionsFromAllBuffers': true
-'jekyll':
-  'postsType': '.md'
+"*":
+  "activate-power-mode":
+    particles:
+      size: {}
+      spawnCount: {}
+      totalCount: {}
+    screenShake: {}
+  "atom-perforce": {}
+  "autocomplete-python":
+    addBracketAfterFunction: true
+    useSnippets: "required"
+  core:
+    disabledPackages: [
+      "linter-pylint"
+      "atom-perforce"
+    ]
+    ignoredNames: [
+      "*.pyc"
+    ]
+    themes: [
+      "one-dark-ui"
+      "atom-monokai"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "5a0697ca-8d90-5da2-ae8e-eec6ed19f86e"
+  "file-types":
+    "^wscript$": "source.python"
+    h: "source.cpp"
+    waf_files: "source.json"
+  linter:
+    showErrorPanel: false
+    underlineIssues: false
+  "linter-pylint":
+    rcFile: "E:\\dev\\lyengine\\branches\\Gems\\dev\\.pylintrc"
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
