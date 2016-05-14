@@ -13,15 +13,13 @@
     disabledPackages: [
       "linter-pylint"
       "atom-perforce"
+      "activate-power-mode"
     ]
     ignoredNames: [
       "*.pyc"
     ]
-    themes: [
-      "one-dark-ui"
-      "atom-monokai"
-    ]
   editor:
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -33,8 +31,8 @@
     h: "source.cpp"
     waf_files: "source.json"
   linter:
-    showErrorPanel: false
     underlineIssues: false
+  "linter-eslint": {}
   "linter-pylint":
     rcFile: "E:\\dev\\lyengine\\branches\\Gems\\dev\\.pylintrc"
   minimap:

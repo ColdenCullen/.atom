@@ -10,6 +10,7 @@ packages: [
   "language-qml"
   "linter"
   "linter-pylint"
+  "linter-eslint"
   "minimap"
   "minimap-bookmarks"
   "minimap-cursorline"
