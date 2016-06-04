@@ -37,14 +37,18 @@
     waf_files: "source.json"
   jekyll:
     postsType: ".md"
+  "language-babel":
+    autoIndentJSX: true
   linter:
-    underlineIssues: false
+    errorPanelHeight: 46
     statusBar: "Show all errors"
+    underlineIssues: false
   "linter-eslint": {}
   "linter-pylint": {}
   metrics:
     userId: "21e56c7aa661a97b2dc96bf09353178e8167aaf3"
   minimap:
+    absoluteMode: true
     plugins:
       bookmarks: true
       bookmarksDecorationsZIndex: 0
@@ -62,3 +66,18 @@
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
+".babel.regexp.source":
+  editor:
+    tabLength: 4
+".js.jsx.source":
+  editor:
+    tabLength: 4
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 4
+".js.regexp.source":
+  editor:
+    tabLength: 4
+".js.source":
+  editor:
+    tabLength: 4
