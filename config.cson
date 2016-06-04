@@ -6,21 +6,26 @@
       totalCount: {}
     screenShake: {}
   "atom-perforce": {}
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
   "autocomplete-python":
     addBracketAfterFunction: true
     useSnippets: "required"
   core:
     disabledPackages: [
-      "linter-pylint"
       "atom-perforce"
-      "activate-power-mode"
+      "language-javascript"
     ]
     ignoredNames: [
       "*.pyc"
     ]
+    themes: [
+      "atom-dark-ui"
+    ]
   editor:
-    fontSize: 15
-    invisibles: {}
+    fontSize: 14
+    invisibles:
+      eol: " "
     showIndentGuide: true
     showInvisibles: true
     tabLength: 4
@@ -30,11 +35,15 @@
     "^wscript$": "source.python"
     h: "source.cpp"
     waf_files: "source.json"
+  jekyll:
+    postsType: ".md"
   linter:
     underlineIssues: false
+    statusBar: "Show all errors"
   "linter-eslint": {}
-  "linter-pylint":
-    rcFile: "E:\\dev\\lyengine\\branches\\Gems\\dev\\.pylintrc"
+  "linter-pylint": {}
+  metrics:
+    userId: "21e56c7aa661a97b2dc96bf09353178e8167aaf3"
   minimap:
     plugins:
       bookmarks: true
@@ -47,6 +56,8 @@
       "highlight-selectedDecorationsZIndex": 0
       linter: true
       linterDecorationsZIndex: 0
+  "release-notes":
+    viewedVersion: "0.95.0"
   "tree-view":
     hideIgnoredNames: true
   welcome:
